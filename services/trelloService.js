@@ -3,7 +3,7 @@
  */
 var Trello = require("node-trello");
 var https = require('https');
-var Q = require('Q');
+var Q = require('q');
 var apiKey = process.env.TRELLO_API_KEY;
 
 function login(userToken){
